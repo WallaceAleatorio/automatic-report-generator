@@ -1,0 +1,27 @@
+# Ambiente virtual
+venv/
+.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+
+# Configurações locais
+config.py
+
+# Dados
+data/
+
+# Relatórios gerados
+reports/
+
+# Gráficos gerados
+charts/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
