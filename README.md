@@ -1,19 +1,19 @@
-# 📊 Gerador Inteligente de Relatórios
+# 📊 Automatic Report Generator
 
-Sistema desenvolvido em Python para automatizar a análise de arquivos CSV e Excel, gerar gráficos, criar relatórios em PDF e armazenar os dados em PostgreSQL.
+An automated data analysis pipeline built with Python that processes CSV and Excel files, generates charts, creates PDF reports, and stores processed data in PostgreSQL.
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-* Importação automática de arquivos CSV e Excel
-* Identificação automática dos tipos de dados
-* Estatísticas descritivas
-* Geração automática de gráficos
-* Geração de relatórios PDF
-* Armazenamento dos dados em PostgreSQL
-* Histórico de importações
-* Estrutura preparada para integração com Power BI
+* Import CSV and Excel files
+* Automatic data type detection
+* Descriptive statistics generation
+* Automatic chart creation
+* PDF report generation
+* PostgreSQL integration
+* Import history tracking
+* Scalable architecture for BI dashboards
 
-## 🛠 Tecnologias Utilizadas
+## 🛠 Tech Stack
 
 * Python
 * Pandas
@@ -23,67 +23,74 @@ Sistema desenvolvido em Python para automatizar a análise de arquivos CSV e Exc
 * SQLAlchemy
 * python-dotenv
 
-## 📂 Arquitetura
+## 📂 Architecture
 
 ```text
-Excel / CSV
+CSV / Excel
      ↓
 Python
      ↓
-Análise de Dados
+Data Analysis
      ↓
-Gráficos
+Charts
      ↓
-Relatório PDF
+PDF Report
      ↓
 PostgreSQL
 ```
 
-## ⚙️ Instalação
+## ⚙️ Installation
 
-Clone o projeto:
+Clone the repository:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+git clone https://github.com/YOUR_USERNAME/automatic-report-generator.git
 ```
 
-Instale as dependências:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Crie um arquivo `.env` baseado em `.env.example`.
+Create a `.env` file based on `.env.example`.
 
-Execute:
-
-```bash
-python src/main.py caminho_do_arquivo.csv
-```
-
-## 📈 Exemplo de Uso
+Run the application:
 
 ```bash
-python src/main.py data/vendas.csv
+python src/main.py data/sample.csv
 ```
 
-O sistema irá:
+## 📈 Example Output
 
-* Ler o arquivo
-* Gerar análises
-* Criar gráficos
-* Gerar PDF
-* Salvar os dados no PostgreSQL
-* Registrar a importação no histórico
+The system automatically:
 
-## 🔮 Próximas Melhorias
+* Reads CSV/Excel files
+* Analyzes the dataset
+* Generates visual charts
+* Creates a PDF report
+* Saves data to PostgreSQL
+* Records the import history
 
-* Dashboard Power BI
-* Insights com IA
-* API REST para upload de arquivos
-* Interface Web
-* Agendamento automático de processamento
+## 🗄 Database Features
 
-## 👨‍💻 Autor
+The application stores:
+
+* Imported datasets
+* Import history
+* Processing metadata
+
+This enables future integration with BI tools such as Power BI.
+
+## 🔮 Future Improvements
+
+* Power BI Dashboard
+* AI-generated insights
+* REST API
+* Web interface
+* Scheduled processing
+* Cloud deployment
+
+## 👨‍💻 Author
 
 Wallace
